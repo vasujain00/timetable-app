@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.timetable"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.timetable.Simple"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       <activity
+            android:name="com.example.timetable.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.timetable.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.timetable.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.timetable.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.timetable.Monday"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.timetable.MONDAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.timetable.Tuesday"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.timetable.TUESDAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.timetable.Wednesday"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.timetable.WEDNESDAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.timetable.Thursday"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.timetable.THURSDAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.timetable.Friday"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.timetable.FRIDAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.timetable.Saturday"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.timetable.SATURDAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.timetable.Class1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.timetable.CLASS1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.timetable.Class2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.timetable.CLASS2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.timetable.Class3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.timetable.CLASS3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.timetable.Class4"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.timetable.CLASS4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.timetable.Class5"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.timetable.CLASS5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.timetable.Class6"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.timetable.CLASS6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.timetable.Class7"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.timetable.CLASS7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.timetable.Class8"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.timetable.CLASS8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.timetable.Class9"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.timetable.CLASS9" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
