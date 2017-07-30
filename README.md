@@ -1,2 +1,4 @@
 # timetable-app
-this app is a time table app of android. for android platform. fragments are used
+A Simple Android Based Time Table Application which uses list view in fragments to show different classes on days depending on the selected semester. 
+I have used sqlite database to store the data. 
+For notification, A service is running in background to send alerts during class time. 
